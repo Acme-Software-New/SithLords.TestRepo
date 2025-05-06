@@ -14,5 +14,5 @@ jobs:
           event-type: "SithLords.NodeJSApp"
           token: ${{ secrets.EVENTHUB_TOKEN }}
           repository: 'Acme-Software-New/EventHub.GitHub'
-          client_payload: '{"repo": "${{ github.repository }}",
+          client-payload: '{"repo": "${{ github.repository }}",
                             "html_url": "${{ github.event.repository.html_url }}"}'
